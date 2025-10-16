@@ -31,7 +31,7 @@ def generate_response(topic):
     
     prompt = PromptTemplate(
         input_variables = ["topic"],
-        templage = template
+        template = template
     )
     query = prompt.format(topic=topic)
     response = llm(query, max_tokens=2048)
