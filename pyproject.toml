@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "002-streamlit-blog-post-generator"
+version = "0.1.0"
+description = ""
+authors = ["Tariq Mansaray <Tariq.Mansaray@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+streamlit = "^1.37.0"
+langchain = "^0.2.11"
+langchain-openai = "^0.1.19"
+python-dotenv = "^1.0.1"
+langgraph = "^0.1.19"
+langchain-community = "^0.2.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
